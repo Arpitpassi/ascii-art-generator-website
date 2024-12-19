@@ -186,7 +186,7 @@
             position: absolute;
             width: 26px;
             height: 26px;
-            background: var(--bg-dark);
+            background: currentColor;
             top: 2px;
             left: 2px;
             transition: transform 0.3s;
@@ -194,9 +194,8 @@
 
         .mode-toggle.active::after {
             transform: translateX(30px);
-            background: var(--text-dark);
+            background: currentColor;
         }
-
         #preview-image {
             max-height: 400px;
             object-fit: contain;
